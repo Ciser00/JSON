@@ -1,0 +1,17 @@
+#grid{ /*sets up a 12 cloumn css grid */
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+
+
+}
+body{
+  background-color: black;
+  color: white;
+}
+.pokemonitem{
+  display: flex;
+  border:3px solid black;
+
+}
